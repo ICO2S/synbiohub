@@ -61,7 +61,7 @@
     "request": "^2.79.0",
     "sboljs": "^2.0.4",
     "sendgrid": "^5.2.3",
-    "sequelize": "^3.32.1",
+    "sequelize": "^5.15.1",
     "sequence-formatter": "^1.0.0",
     "sha1": "^1.1.1",
     "sha1-stream": "^1.0.1",
