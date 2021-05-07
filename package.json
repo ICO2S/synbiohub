@@ -82,7 +82,7 @@
     "tmp-promise": "^1.0.3",
     "trie-search": "^1.0.0",
     "umzug": "^2.2.0",
-    "underscore": "^1.8.0",
+    "underscore": "^1.12.1",
     "uuid": "^3.2.1",
     "validator": "^10.9.0",
     "value-event": "^5.1.1",
