@@ -1,6 +1,6 @@
 import requests
 from unittest import TestCase
-from test_functions import compare_get_request, compare_get_request_download,compare_post_request
+from test_functions import compare_get_request, compare_get_request_download,compare_post_request,compare_get_request_json
 
 class TestDownload(TestCase):
 
@@ -19,7 +19,7 @@ class TestDownload(TestCase):
         compare_get_request_download("/public/:collectionId/:displayId/:version/gff", route_parameters = ["testid1","part_pIKE_Toggle_1","1"], headers = {"Accept": "text/html"})
         compare_get_request_download("/public/:collectionId/:displayId/:version/omex", route_parameters = ["testid1","part_pIKE_Toggle_1","1"], headers = {"Accept": "text/html"})
         compare_get_request_download("/public/:collectionId/:displayId/:version/fasta", route_parameters = ["testid1","part_pIKE_Toggle_1","1"], headers = {"Accept": "text/html"})
-        # compare_get_request_download("/public/:collectionId/:displayId/summary", route_parameters = ["testid1","part_pIKE_Toggle_1"], headers = {"Accept": "text/html"})
+        compare_get_request_json("/public/:collectionId/:displayId/:version/summary", route_parameters = ["testid1","part_pIKE_Toggle_1","1"], headers = {"Accept": "text/html"})
 
         compare_get_request_download("/user/:userId/:collectionId/:displayId/:version/gff", route_parameters = ["testuser","test_attachment","part_pIKE_Toggle_1","1"], headers = {"Accept": "text/html"})
         compare_get_request_download("/user/:userId/:collectionId/:displayId/:version/omex", route_parameters = ["testuser","test_attachment","part_pIKE_Toggle_1","1"], headers = {"Accept": "text/html"})

@@ -96,18 +96,6 @@
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000280"/>
     <sbol:component>
-      <sbol:Component rdf:about="http://localhost:7777/user/testuser/test_attachment/part_pIKELeftCassette_1/BBa_R0040/1">
-        <sbol:persistentIdentity rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKELeftCassette_1/BBa_R0040"/>
-        <sbol:displayId>BBa_R0040</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <sbh:topLevel rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKELeftCassette_1/1"/>
-        <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
-        <obo:OBI_0001617>none</obo:OBI_0001617>
-        <sbol:definition rdf:resource="http://localhost:7777/user/testuser/test_attachment/BBa_R0040/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
       <sbol:Component rdf:about="http://localhost:7777/user/testuser/test_attachment/part_pIKELeftCassette_1/ECK120029600/1">
         <sbol:persistentIdentity rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKELeftCassette_1/ECK120029600"/>
         <sbol:displayId>ECK120029600</sbol:displayId>
@@ -140,6 +128,18 @@
         <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
         <obo:OBI_0001617>none</obo:OBI_0001617>
         <sbol:definition rdf:resource="http://localhost:7777/user/testuser/test_attachment/BBa_J61101/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://localhost:7777/user/testuser/test_attachment/part_pIKELeftCassette_1/BBa_R0040/1">
+        <sbol:persistentIdentity rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKELeftCassette_1/BBa_R0040"/>
+        <sbol:displayId>BBa_R0040</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:topLevel rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKELeftCassette_1/1"/>
+        <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
+        <obo:OBI_0001617>none</obo:OBI_0001617>
+        <sbol:definition rdf:resource="http://localhost:7777/user/testuser/test_attachment/BBa_R0040/1"/>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
       </sbol:Component>
     </sbol:component>
@@ -276,30 +276,6 @@
       </sbol:Component>
     </sbol:component>
     <sbol:component>
-      <sbol:Component rdf:about="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/BBa_C0040/1">
-        <sbol:persistentIdentity rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/BBa_C0040"/>
-        <sbol:displayId>BBa_C0040</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <sbh:topLevel rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/1"/>
-        <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
-        <obo:OBI_0001617>none</obo:OBI_0001617>
-        <sbol:definition rdf:resource="http://localhost:7777/user/testuser/test_attachment/BBa_C0040/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
-      <sbol:Component rdf:about="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/ECK120033736/1">
-        <sbol:persistentIdentity rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/ECK120033736"/>
-        <sbol:displayId>ECK120033736</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <sbh:topLevel rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/1"/>
-        <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
-        <obo:OBI_0001617>none</obo:OBI_0001617>
-        <sbol:definition rdf:resource="http://localhost:7777/user/testuser/test_attachment/ECK120033736/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
       <sbol:Component rdf:about="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/BBa_J61130/1">
         <sbol:persistentIdentity rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/BBa_J61130"/>
         <sbol:displayId>BBa_J61130</sbol:displayId>
@@ -320,6 +296,30 @@
         <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
         <obo:OBI_0001617>none</obo:OBI_0001617>
         <sbol:definition rdf:resource="http://localhost:7777/user/testuser/test_attachment/BBa_R0010/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/BBa_C0040/1">
+        <sbol:persistentIdentity rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/BBa_C0040"/>
+        <sbol:displayId>BBa_C0040</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:topLevel rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/1"/>
+        <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
+        <obo:OBI_0001617>none</obo:OBI_0001617>
+        <sbol:definition rdf:resource="http://localhost:7777/user/testuser/test_attachment/BBa_C0040/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/ECK120033736/1">
+        <sbol:persistentIdentity rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/ECK120033736"/>
+        <sbol:displayId>ECK120033736</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:topLevel rdf:resource="http://localhost:7777/user/testuser/test_attachment/part_pIKERightCassette_1/1"/>
+        <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
+        <obo:OBI_0001617>none</obo:OBI_0001617>
+        <sbol:definition rdf:resource="http://localhost:7777/user/testuser/test_attachment/ECK120033736/1"/>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
       </sbol:Component>
     </sbol:component>

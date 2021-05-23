@@ -12,18 +12,6 @@
     <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
     <sbol:role rdf:resource="http://identifiers.org/so/SO:0000280"/>
     <sbol:component>
-      <sbol:Component rdf:about="http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKELeftCassette_1/1">
-        <sbol:persistentIdentity rdf:resource="http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKELeftCassette_1"/>
-        <sbol:displayId>pIKELeftCassette_1</sbol:displayId>
-        <sbol:version>1</sbol:version>
-        <sbh:topLevel rdf:resource="http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1"/>
-        <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
-        <obo:OBI_0001617>none</obo:OBI_0001617>
-        <sbol:definition rdf:resource="http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"/>
-        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
-      </sbol:Component>
-    </sbol:component>
-    <sbol:component>
       <sbol:Component rdf:about="http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKERightCassette_1/1">
         <sbol:persistentIdentity rdf:resource="http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKERightCassette_1"/>
         <sbol:displayId>pIKERightCassette_1</sbol:displayId>
@@ -32,6 +20,18 @@
         <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
         <obo:OBI_0001617>none</obo:OBI_0001617>
         <sbol:definition rdf:resource="http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKELeftCassette_1/1">
+        <sbol:persistentIdentity rdf:resource="http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKELeftCassette_1"/>
+        <sbol:displayId>pIKELeftCassette_1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:topLevel rdf:resource="http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1"/>
+        <sbh:ownedBy rdf:resource="http://localhost:7777/user/testuser"/>
+        <obo:OBI_0001617>none</obo:OBI_0001617>
+        <sbol:definition rdf:resource="http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"/>
         <sbol:access rdf:resource="http://sbols.org/v2#public"/>
       </sbol:Component>
     </sbol:component>

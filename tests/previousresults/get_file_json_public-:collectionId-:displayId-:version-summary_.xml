@@ -1,0 +1,1612 @@
+{
+  "componentDefinitions": [
+    {
+      "uri": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1",
+      "displayId": "part_pIKE_Toggle_1",
+      "version": "1",
+      "description": "LacI/TetR Toggle Switch",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000280"
+      ],
+      "components": [
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKERightCassette_1/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKERightCassette_1",
+          "displayId": "pIKERightCassette_1",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKELeftCassette_1/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKELeftCassette_1",
+          "displayId": "pIKELeftCassette_1",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+        }
+      ],
+      "sequenceAnnotations": [
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/anno1/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/anno1",
+          "displayId": "anno1",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/anno1/location1/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/anno1/location1",
+              "displayId": "location1",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 1,
+              "end": 1285,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKELeftCassette_1/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/anno2/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/anno2",
+          "displayId": "anno2",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/anno2/location2/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/anno2/location2",
+              "displayId": "location2",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 1286,
+              "end": 2834,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKE_Toggle_1/pIKERightCassette_1/1"
+        }
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1",
+      "displayId": "part_pIKELeftCassette_1",
+      "version": "1",
+      "description": "TetR Inverter",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000280"
+      ],
+      "components": [
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/ECK120029600/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/ECK120029600",
+          "displayId": "ECK120029600",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/ECK120029600/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/BBa_J61101/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/BBa_J61101",
+          "displayId": "BBa_J61101",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/BBa_J61101/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/BBa_R0040/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/BBa_R0040",
+          "displayId": "BBa_R0040",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/BBa_R0040/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/BBa_C0012/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/BBa_C0012",
+          "displayId": "BBa_C0012",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/BBa_C0012/1"
+        }
+      ],
+      "sequenceAnnotations": [
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno1/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno1",
+          "displayId": "anno1",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno1/location1/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno1/location1",
+              "displayId": "location1",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 1,
+              "end": 55,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/BBa_R0040/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno2/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno2",
+          "displayId": "anno2",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno2/location2/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno2/location2",
+              "displayId": "location2",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 56,
+              "end": 68,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/BBa_J61101/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno3/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno3",
+          "displayId": "anno3",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno3/location3/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno3/location3",
+              "displayId": "location3",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 69,
+              "end": 1197,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/BBa_C0012/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno4/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno4",
+          "displayId": "anno4",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno4/location4/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/anno4/location4",
+              "displayId": "location4",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 1198,
+              "end": 1288,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKELeftCassette_1/ECK120029600/1"
+        }
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1",
+      "displayId": "part_pIKERightCassette_1",
+      "version": "1",
+      "description": "LacI Inverter",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000280"
+      ],
+      "components": [
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_R0010/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_R0010",
+          "displayId": "BBa_R0010",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/BBa_R0010/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/ECK120033736/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/ECK120033736",
+          "displayId": "ECK120033736",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/ECK120033736/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_J61120/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_J61120",
+          "displayId": "BBa_J61120",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/BBa_J61120/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_J61130/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_J61130",
+          "displayId": "BBa_J61130",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/BBa_J61130/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_C0040/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_C0040",
+          "displayId": "BBa_C0040",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/BBa_C0040/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_E0040/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_E0040",
+          "displayId": "BBa_E0040",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "access": "http://sbols.org/v2#public",
+          "definition": "http://localhost:7777/public/testid1/BBa_E0040/1"
+        }
+      ],
+      "sequenceAnnotations": [
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno1/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno1",
+          "displayId": "anno1",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno1/location1/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno1/location1",
+              "displayId": "location1",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 1,
+              "end": 55,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_R0010/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno2/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno2",
+          "displayId": "anno2",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno2/location2/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno2/location2",
+              "displayId": "location2",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 56,
+              "end": 68,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_J61120/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno3/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno3",
+          "displayId": "anno3",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno3/location3/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno3/location3",
+              "displayId": "location3",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 69,
+              "end": 729,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_C0040/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno4/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno4",
+          "displayId": "anno4",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno4/location4/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno4/location4",
+              "displayId": "location4",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 730,
+              "end": 742,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_J61130/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno5/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno5",
+          "displayId": "anno5",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno5/location5/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno5/location5",
+              "displayId": "location5",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 743,
+              "end": 1463,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/BBa_E0040/1"
+        },
+        {
+          "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno6/1",
+          "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno6",
+          "displayId": "anno6",
+          "version": "1",
+          "annotations": [
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+              "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+            },
+            {
+              "type": "uri",
+              "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+              "value": "http://localhost:7777/user/testuser"
+            },
+            {
+              "type": "string",
+              "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+              "value": "none"
+            }
+          ],
+          "locations": [
+            {
+              "uri": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno6/location6/1",
+              "persistentIdentity": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/anno6/location6",
+              "displayId": "location6",
+              "version": "1",
+              "annotations": [
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+                  "value": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/1"
+                },
+                {
+                  "type": "uri",
+                  "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+                  "value": "http://localhost:7777/user/testuser"
+                },
+                {
+                  "type": "string",
+                  "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+                  "value": "none"
+                }
+              ],
+              "start": 1464,
+              "end": 1554,
+              "orientation": "http://sbols.org/v2#inline"
+            }
+          ],
+          "component": "http://localhost:7777/public/testid1/part_pIKERightCassette_1/ECK120033736/1"
+        }
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/BBa_C0012/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/BBa_C0012",
+      "displayId": "BBa_C0012",
+      "version": "1",
+      "description": "lacI coding sequence",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/BBa_C0012/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000316"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_BBa_C0012/1"
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/BBa_C0040/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/BBa_C0040",
+      "displayId": "BBa_C0040",
+      "version": "1",
+      "description": "tetR coding sequence",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/BBa_C0040/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000316"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_BBa_C0040/1"
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/BBa_E0040/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/BBa_E0040",
+      "displayId": "BBa_E0040",
+      "version": "1",
+      "description": "gfp coding sequence",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/BBa_E0040/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000316"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_BBa_E0040/1"
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/BBa_J61101/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/BBa_J61101",
+      "displayId": "BBa_J61101",
+      "version": "1",
+      "description": "RBS1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/BBa_J61101/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000139"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_BBa_J61101/1"
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/BBa_J61120/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/BBa_J61120",
+      "displayId": "BBa_J61120",
+      "version": "1",
+      "description": "RBS2",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/BBa_J61120/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000139"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_BBa_J61120/1"
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/BBa_J61130/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/BBa_J61130",
+      "displayId": "BBa_J61130",
+      "version": "1",
+      "description": "RBS2",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/BBa_J61130/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000139"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_BBa_J61130/1"
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/BBa_R0010/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/BBa_R0010",
+      "displayId": "BBa_R0010",
+      "version": "1",
+      "description": "pLacI promoter",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/BBa_R0010/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000167"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_BBa_R0010/1"
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/BBa_R0040/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/BBa_R0040",
+      "displayId": "BBa_R0040",
+      "version": "1",
+      "description": "pTet promoter",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/BBa_R0040/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000167"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_BBa_R0040/1"
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/ECK120029600/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/ECK120029600",
+      "displayId": "ECK120029600",
+      "version": "1",
+      "description": "Terminator1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/ECK120029600/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000141"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_ECK120029600/1"
+      ]
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/ECK120033736/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/ECK120033736",
+      "displayId": "ECK120033736",
+      "version": "1",
+      "description": "Terminator2",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/ECK120033736/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "types": [
+        "http://www.biopax.org/release/biopax-level3.owl#DnaRegion"
+      ],
+      "roles": [
+        "http://identifiers.org/so/SO:0000141"
+      ],
+      "sequences": [
+        "http://localhost:7777/public/testid1/part_ECK120033736/1"
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "uri": "http://localhost:7777/public/testid1/part_BBa_C0012/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_BBa_C0012",
+      "displayId": "part_BBa_C0012",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_BBa_C0012/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "atggtgaatgtgaaaccagtaacgttatacgatgtcgcagagtatgccggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtggcacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggccctgcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgccagcgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcacaatcttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggatgccattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgaccagacacccatcaacagtattattttctcccatgaagacggtacgcgactgggcgtggagcatctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctcggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccgatagcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatgctgaatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcgcaatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggatacgacgataccgaagacagctcatgttatatcccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcaggctgcaaacgacgaaaactacgctttagtagcttaataa",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_BBa_C0040/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_BBa_C0040",
+      "displayId": "part_BBa_C0040",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_BBa_C0040/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "atgtccagattagataaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaaggtttaacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggcatgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagataggcaccatactcacttttgccctttagaaggggaaagctggcaagattttttacgtaataacgctaaaagttttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacacggcctacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaaggtttttcactagagaatgcattatatgcactcagcgctgtggggcattttactttaggttgcgtattggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactgatagtatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagccagccttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtgaaagtgggtccgctgcaaacgacgaaaactacgctttagtagcttaataa",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_BBa_E0040/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_BBa_E0040",
+      "displayId": "part_BBa_E0040",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_BBa_E0040/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "atgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataa",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_BBa_J61101/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_BBa_J61101",
+      "displayId": "part_BBa_J61101",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_BBa_J61101/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "aaagacaggacc",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_BBa_J61120/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_BBa_J61120",
+      "displayId": "part_BBa_J61120",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_BBa_J61120/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "aaagacaggacc",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_BBa_J61130/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_BBa_J61130",
+      "displayId": "part_BBa_J61130",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_BBa_J61130/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "aaagaaacgaca",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_BBa_R0010/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_BBa_R0010",
+      "displayId": "part_BBa_R0010",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_BBa_R0010/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_BBa_R0040/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_BBa_R0040",
+      "displayId": "part_BBa_R0040",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_BBa_R0040/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "tccctatcagtgatagagattgacatccctatcagtgatagagatactgagcac",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_ECK120029600/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_ECK120029600",
+      "displayId": "part_ECK120029600",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_ECK120029600/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "ttcagccaaaaaacttaagaccgccggtcttgtccactaccttgcagtaatgcggtggacaggatcggcggttttcttttctcttctcaa",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    },
+    {
+      "uri": "http://localhost:7777/public/testid1/part_ECK120033736/1",
+      "persistentIdentity": "http://localhost:7777/public/testid1/part_ECK120033736",
+      "displayId": "part_ECK120033736",
+      "version": "1",
+      "annotations": [
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#topLevel",
+          "value": "http://localhost:7777/public/testid1/part_ECK120033736/1"
+        },
+        {
+          "type": "uri",
+          "name": "http://wiki.synbiohub.org/wiki/Terms/synbiohub#ownedBy",
+          "value": "http://localhost:7777/user/testuser"
+        },
+        {
+          "type": "string",
+          "name": "http://purl.obolibrary.org/obo/OBI_0001617",
+          "value": "none"
+        }
+      ],
+      "elements": "ttcagccaaaaaacttaagaccgccggtcttgtccactaccttgcagtaatgcggtggacaggatcggcggttttcttttctcttctcaa",
+      "encoding": "http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"
+    }
+  ]
+}

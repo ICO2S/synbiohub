@@ -152,10 +152,6 @@ requesttype is the type of request performed- either 'get request' or 'post requ
     if args.resetalltests:
         with open(file_path, 'w') as rfile:
             rfile.write(requestcontent)
-    elif requesttype[0:8] == "get_file" and request in args.resetgetrequests:
-        test_print("resetting get_file request " + request + " and saving to file " + file_path)
-        with open(file_path, 'w') as file:
-            file.write(requestcontent)
     elif requesttype[0:3] == "get" and request in args.resetgetrequests:
         test_print("resetting get request " + request + " and saving to file " + file_path)
         with open(file_path, 'w') as rfile:
@@ -165,10 +161,45 @@ requesttype is the type of request performed- either 'get request' or 'post requ
         with open(file_path, 'w') as rfile:
             rfile.write(requestcontent)
     else:
-        if requesttype[0:8] == "get_file":
+        if requesttype[0:13] == "get_file_json":
+            file_diff_json(requestcontent, request, requesttype, route_parameters, file_path)
+        elif requesttype[0:8] == "get_file":
             file_diff_download(requestcontent, request, requesttype, route_parameters, file_path)
         elif requesttype[0:3] == "get" or requesttype[0:4] == "post":
             file_diff(requestcontent, request, requesttype, route_parameters, file_path)
+
+def file_diff(requestcontent, request, requesttype, route_parameters, file_path):
+    olddata = None
+    try:
+        with open (file_path, "r") as oldfile:
+            olddata=oldfile.read()
+    except IOError as e:
+        raise Exception("\n[synbiohub test] Could not open previous result for the " + \
+                            requesttype + " " + request + ". If the saved result has not yet been created because it is a new page, please use --resetgetrequests [requests] or --resetpostrequests [requests] to create the file.") from e
+
+    olddata = olddata.splitlines()
+    newdata = requestcontent.splitlines()
+
+    changes = difflib.unified_diff(olddata, newdata)
+
+    # change list holds the strings to print in an error message
+    changelist = [requesttype, " ", file_path, " did not match previous results. If you are adding changes to SynBioHub that change this page, please check that the page is correct and update the file using the command line argument --resetgetrequests [requests] and --resetpostrequests [requests].\nThe following is a diff of the new files compared to the old.\n"]
+
+    # temp variable to detect if we need to print the beginning of the error
+    numofchanges = 0
+
+    for c in changes:
+        numofchanges += 1
+
+        # print the diff
+        changelist.append(c)
+        changelist.append("\n")
+
+    changelist.append("\n Here is the last 50 lines of the synbiohub error log: \n")
+    changelist.append(get_end_of_error_log(50))
+
+    if numofchanges>0:
+        raise ValueError(''.join(changelist))
 
 def file_diff_download(requestcontent, request, requesttype, route_parameters, file_path):
     olddata = None
@@ -207,8 +238,9 @@ def file_diff_download(requestcontent, request, requesttype, route_parameters, f
         changelist = [requesttype, " ", file_path, " did not match previous results. If you are adding changes to SynBioHub that change this page, please check that the page is correct and update the file using the command line argument --resetgetrequests [requests] and --resetpostrequests [requests].\nThe following is a diff of the new files compared to the old.\n"]
         raise ValueError(''.join(changelist))
 
-def file_diff(requestcontent, request, requesttype, route_parameters, file_path):
+def file_diff_json(requestcontent, request, requesttype, route_parameters, file_path):
     olddata = None
+
     try:
         with open (file_path, "r") as oldfile:
             olddata=oldfile.read()
@@ -216,35 +248,22 @@ def file_diff(requestcontent, request, requesttype, route_parameters, file_path)
         raise Exception("\n[synbiohub test] Could not open previous result for the " + \
                             requesttype + " " + request + ". If the saved result has not yet been created because it is a new page, please use --resetgetrequests [requests] or --resetpostrequests [requests] to create the file.") from e
 
-    olddata = olddata.splitlines()
-    newdata = requestcontent.splitlines()
+    if json.dumps(requestcontent,sort_keys = True) != json.dumps(olddata, sort_keys = True):
+        changelist = [requesttype, " ", file_path, " did not match previous results. If you are adding changes to SynBioHub that change this page, please check that the page is correct and update the file using the command line argument --resetgetrequests [requests] and --resetpostrequests [requests].\n"]
 
-    changes = difflib.unified_diff(olddata, newdata)
+        changes = difflib.unified_diff(json.dumps(olddata), json.dumps(requestcontent))
+        # temp variable to detect if we need to print the beginning of the error
 
-    # change list holds the strings to print in an error message
-    changelist = [requesttype, " ", file_path, " did not match previous results. If you are adding changes to SynBioHub that change this page, please check that the page is correct and update the file using the command line argument --resetgetrequests [requests] and --resetpostrequests [requests].\nThe following is a diff of the new files compared to the old.\n"]
+        for c in changes:
+            changelist.append(c)
 
-    # temp variable to detect if we need to print the beginning of the error
-    numofchanges = 0
-
-    for c in changes:
-        numofchanges += 1
-
-        # print the diff
-        changelist.append(c)
         changelist.append("\n")
 
-    changelist.append("\n Here is the last 50 lines of the synbiohub error log: \n")
-    changelist.append(get_end_of_error_log(50))
-
-    if numofchanges>0:
         raise ValueError(''.join(changelist))
-
 
 def login_with(data, headers = {'Accept':'text/plain'}):
     result = post_request("login", data, headers, [], files = None)
     test_state.save_authentication(result)
-
 
 def compare_get_request(request, test_name = "", route_parameters = [], headers = {}, re_render_time = 0):
     """Complete a get request and error if it differs from previous results.
@@ -279,6 +298,24 @@ def compare_get_request_download(request, test_name = "", route_parameters = [],
     test_state.add_get_request(request, testpath, test_name)
 
     compare_request(get_request_download(request, headers, route_parameters, re_render_time), request, "get_file request", route_parameters, testpath)
+
+def compare_get_request_json(request, test_name = "", route_parameters = [], headers = {}, re_render_time = 0):
+    """Complete a get_file request and error if it differs from previous results.
+
+    request -- string, the name of the page being requested
+    route_parameters -- a ordered lists of the parameters for the endpoint
+    test_name -- a name to make the request unique from another test of this endpoint
+    headers -- a dictionary of headers to include in the request
+    re_render_time -- time to wait in milliseconds before rendering javascript again"""
+
+    # remove any leading forward slashes for consistency
+    request = clip_request(request)
+
+    testpath = request_file_path_download(request, "get_file_json", test_name)
+    test_state.add_get_request(request, testpath, test_name)
+
+    compare_request(get_request_download(request, headers, route_parameters, re_render_time), request, "get_file_json", route_parameters, testpath)
+
 
 def compare_post_request(request, data, test_name = "", route_parameters = [], headers = {}, files = None):
     """Complete a post request and error if it differs from previous results.
