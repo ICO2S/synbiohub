@@ -118,6 +118,30 @@ block topLevelPanelsCont
                             div.row
                                 div.col-md-12
                                     +attachments(meta.url, meta.attachments, meta.canEdit)
+                
+                .panel.panel-default
+                    .panel-heading
+                        h4.panel-title
+                            a.accordion-toggle(data-toggle='collapse', href='#collapseReference')
+                                b Reference
+                    #collapseReference.panel-collapse.collapse.in
+                        .panel-body
+                            div.row
+                                div.col-md-12
+                                    div
+                                        | These parts were created by your colleagues. 
+                                        | Please acknowledge the Principal Investigator, 
+                                        | cite the article in which the parts were described, and include 
+                                        | !{config.instanceName} in the Materials and Methods of your future publications.
+                                    br 
+                                    span For your <b>Materials & Methods</b> section:
+                                    div(style="padding-left: 30px")
+                                        div.well.well-sm
+                                            | !{meta.name ? meta.name : meta.id} 
+                                            if meta.creator.description && meta.creator.description != ""
+                                                | was a gift from !{meta.creator.description} 
+                                            | (SynBioHub Part: !{config.instanceUrl + meta.url.toString().substring(1)})
+
                 for plugin in locals.renderingPlugins
                     .panel.panel-default
                         .panel-heading
