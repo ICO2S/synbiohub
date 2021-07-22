@@ -78,7 +78,7 @@
     "stream-meter": "^1.0.4",
     "stream-to-string": "^1.1.0",
     "strip-ansi-stream": "^1.0.0",
-    "striptags": "^3.1.1",
+    "striptags": "^3.2.0",
     "tmp-promise": "^1.0.3",
     "trie-search": "^1.0.0",
     "umzug": "^2.2.0",
