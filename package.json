@@ -58,7 +58,7 @@
     "passport": "^0.4.1",
     "pg-escape": "^0.2.0",
     "popups": "^1.1.3",
-    "pug": "^0.1.0",
+    "pug": "^3.0.1",
     "rdf-ext": "^0.3.0",
     "rdf-graph-abstract": "^0.3.0",
     "rdf-parser-rdfxml": "^0.3.0-rc1",
